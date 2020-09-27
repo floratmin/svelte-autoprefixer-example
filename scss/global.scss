@@ -1,0 +1,15 @@
+@import "./variables.scss";
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+h1 {
+  color: $color;
+}
